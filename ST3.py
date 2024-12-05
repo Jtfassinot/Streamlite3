@@ -52,15 +52,15 @@ elif selection == "Photos":
 
     with col1:
         st.header("Polyvalente")
-        st.image("/Users/julien-thomasfassinot/Documents/WCS/VSD/Streamlit partie 2/MT09.jpeg", caption="Voici une belle photo", use_container_width=True)
+        st.image("https://cdn2.yamaha-motor.eu/prod/product-assets/2024/MT09DX/2024-Yamaha-MT09DX-EU-Icon_Performance-360-Degrees-001-03.jpg", caption="Voici une belle photo", use_container_width=True)
 
     with col2:
         st.header("Pour la piste")
-        st.image("/Users/julien-thomasfassinot/Documents/WCS/VSD/Streamlit partie 2/S1000RR.jpeg", caption="Voici une belle photo", use_container_width=True)
+        st.image("https://cdn2.yamaha-motor.eu/prod/product-assets/2024/MT09DX/2024-Yamaha-MT09DX-EU-Icon_Performance-360-Degrees-001-03.jpg", caption="Voici une belle photo", use_container_width=True)
 
     with col3:
         st.header("Streetfighter V4")
-        st.image("/Users/julien-thomasfassinot/Documents/WCS/VSD/Streamlit partie 2/streetf.jpeg", caption="Voici une belle photo", use_container_width=True)
+        st.image("https://cdn2.yamaha-motor.eu/prod/product-assets/2024/MT09DX/2024-Yamaha-MT09DX-EU-Icon_Performance-360-Degrees-001-03.jpg", caption="Voici une belle photo", use_container_width=True)
 
 if st.session_state["authentication_status"]:
   accueil()
